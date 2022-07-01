@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    color: #ffffff;
+    background-color: #1F2937;
+}
+
+.section1 .header,
+.section1 .hero {
+    padding: 10px 50px;
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-links {
+    display: flex;
+    gap: 20px;
+}
+
+.section2 {
+    background-color: #ffffff;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.section4 {
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: rgb(175, 171, 166);
+}
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: underline;}
+a:active { text-decoration: underline; color: #798aa1;}
