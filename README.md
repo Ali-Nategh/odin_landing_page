@@ -1,1 +1,1 @@
-# odin-landing-page
+This is a landing page project, using more flex box and css in this one, maybe adding javascript to it later.
