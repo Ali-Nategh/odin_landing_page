@@ -51,8 +51,8 @@ a:active { text-decoration: underline; color: #798aa1;}
 }
 
 .hero-img {
-    max-width: 400px;
-    height: 300px;
+    max-width: 40%;
+    max-height: 30%;
     border: 1px solid rgb(151, 144, 144);
     border-radius: 1px;
     padding: 0px;
@@ -178,6 +178,11 @@ a:active { text-decoration: underline; color: #798aa1;}
     background-color: #1F2937;
     color: #e4e8ee;
 }
+.footer p,
+.footer h5 {
+    padding: 0%;
+    margin: 1%;
+}
 
 button {
     display: flex;
@@ -236,10 +241,10 @@ button:hover {
 
 .section1 .hero1 {
     margin: 2px;
-    padding: 0;
+    padding: 0px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 3%;
 }
 
@@ -283,4 +288,50 @@ input[type=text], input[type=password] {
   hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
+  }
+
+  /* Social Media Icons */
+
+.social {
+    padding: 7%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+.social div p {
+    padding-top: 5%;
+}
+
+.hover-3{
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    text-transform: uppercase;
+    position: relative;
+    color: rgba(170, 162, 162, 0.842);
+  }
+  .hover-3:before{
+    content:"CONTACT US!";
+    position:absolute;
+    color: #494848;
+    top: 0;
+    left: 0;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  .hover-3:hover:before{
+    width: 100%;
   }
