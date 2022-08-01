@@ -2,6 +2,8 @@ This is a landing page project, using more flex box and css in this one, maybe a
 
 I decided to make it about midi keyboards! Thought it'd be fun lol. Created the main page, I may add a sign up page to it later.
 
+You can view the page here:
+https://ali-nategh.github.io/odin-landing-page/
 
 
 Credits:
